@@ -1,4 +1,4 @@
-ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
+EigenChannel-EigenChannel.o: EigenChannel.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/4.8.2/iostream \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -69,18 +69,25 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/4.8.2/bits/locale_facets.tcc \
  /usr/include/c++/4.8.2/bits/basic_ios.tcc \
  /usr/include/c++/4.8.2/bits/ostream.tcc /usr/include/c++/4.8.2/istream \
- /usr/include/c++/4.8.2/bits/istream.tcc \
- ../../../LIA_SpkTools/include/liatools.h ../../../include/Eigen/Dense \
- ../../../include/Eigen/Core \
+ /usr/include/c++/4.8.2/bits/istream.tcc /usr/include/c++/4.8.2/fstream \
+ /usr/include/c++/4.8.2/bits/codecvt.h /usr/include/c++/4.8.2/cstdio \
+ /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/basic_file.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++io.h \
+ /usr/include/c++/4.8.2/bits/fstream.tcc /usr/include/c++/4.8.2/cassert \
+ /usr/include/assert.h /usr/include/c++/4.8.2/cmath /usr/include/math.h \
+ /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+ /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
+ /usr/include/bits/nan.h /usr/include/bits/mathdef.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathinline.h \
+ /usr/include/bits/math-finite.h ../../../LIA_SpkTools/include/liatools.h \
+ ../../../include/Eigen/Dense ../../../include/Eigen/Core \
  ../../../include/Eigen/src/Core/util/DisableStupidWarnings.h \
  ../../../include/Eigen/src/Core/util/Macros.h \
- /usr/include/c++/4.8.2/complex /usr/include/c++/4.8.2/cmath \
- /usr/include/math.h /usr/include/bits/huge_val.h \
- /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
- /usr/include/bits/inf.h /usr/include/bits/nan.h \
- /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
- /usr/include/bits/mathinline.h /usr/include/bits/math-finite.h \
- /usr/include/c++/4.8.2/sstream /usr/include/c++/4.8.2/bits/sstream.tcc \
+ /usr/include/c++/4.8.2/complex /usr/include/c++/4.8.2/sstream \
+ /usr/include/c++/4.8.2/bits/sstream.tcc \
  ../../../include/Eigen/src/Core/util/MKL_support.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/emmintrin.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/xmmintrin.h \
@@ -95,8 +102,7 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
  /usr/include/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h /usr/include/c++/4.8.2/cstddef \
- /usr/include/c++/4.8.2/cstdlib /usr/include/c++/4.8.2/cassert \
- /usr/include/assert.h /usr/include/c++/4.8.2/functional \
+ /usr/include/c++/4.8.2/cstdlib /usr/include/c++/4.8.2/functional \
  /usr/include/c++/4.8.2/cstring /usr/include/string.h \
  /usr/include/c++/4.8.2/limits /usr/include/c++/4.8.2/climits \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h \
@@ -104,8 +110,8 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/bits/stdio_lim.h /usr/include/c++/4.8.2/algorithm \
- /usr/include/c++/4.8.2/utility /usr/include/c++/4.8.2/bits/stl_relops.h \
+ /usr/include/c++/4.8.2/algorithm /usr/include/c++/4.8.2/utility \
+ /usr/include/c++/4.8.2/bits/stl_relops.h \
  /usr/include/c++/4.8.2/bits/stl_algo.h \
  /usr/include/c++/4.8.2/bits/algorithmfwd.h \
  /usr/include/c++/4.8.2/bits/stl_heap.h \
@@ -268,13 +274,6 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
  /home/szm/cd/alize-core/alize-core/include/DoubleSquareMatrix.h \
  /home/szm/cd/alize-core/alize-core/include/Feature.h \
  /home/szm/cd/alize-core/alize-core/include/Matrix.h \
- /usr/include/c++/4.8.2/cstdio /usr/include/libio.h \
- /usr/include/_G_config.h /usr/include/bits/sys_errlist.h \
- /usr/include/bits/stdio.h /usr/include/c++/4.8.2/fstream \
- /usr/include/c++/4.8.2/bits/codecvt.h \
- /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/basic_file.h \
- /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++io.h \
- /usr/include/c++/4.8.2/bits/fstream.tcc \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
  /usr/include/stdint.h \
  /home/szm/cd/alize-core/alize-core/include/Config.h \
@@ -365,7 +364,8 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
  ../../../LIA_SpkTools/include/SuperVectors.h \
  ../../../LIA_SpkTools/include/FactorAnalysis.h \
  ../../../LIA_SpkTools/include/TopGauss.h \
- ../../../LIA_SpkTools/include/PldaTools.h ../../../include/Eigen/Core
+ ../../../LIA_SpkTools/include/PldaTools.h ../../../include/Eigen/Core \
+ ../include/EigenChannel.h
 
 /usr/include/stdc-predef.h:
 
@@ -553,17 +553,31 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
 
 /usr/include/c++/4.8.2/bits/istream.tcc:
 
-../../../LIA_SpkTools/include/liatools.h:
+/usr/include/c++/4.8.2/fstream:
 
-../../../include/Eigen/Dense:
+/usr/include/c++/4.8.2/bits/codecvt.h:
 
-../../../include/Eigen/Core:
+/usr/include/c++/4.8.2/cstdio:
 
-../../../include/Eigen/src/Core/util/DisableStupidWarnings.h:
+/usr/include/libio.h:
 
-../../../include/Eigen/src/Core/util/Macros.h:
+/usr/include/_G_config.h:
 
-/usr/include/c++/4.8.2/complex:
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/basic_file.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++io.h:
+
+/usr/include/c++/4.8.2/bits/fstream.tcc:
+
+/usr/include/c++/4.8.2/cassert:
+
+/usr/include/assert.h:
 
 /usr/include/c++/4.8.2/cmath:
 
@@ -586,6 +600,18 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
 /usr/include/bits/mathinline.h:
 
 /usr/include/bits/math-finite.h:
+
+../../../LIA_SpkTools/include/liatools.h:
+
+../../../include/Eigen/Dense:
+
+../../../include/Eigen/Core:
+
+../../../include/Eigen/src/Core/util/DisableStupidWarnings.h:
+
+../../../include/Eigen/src/Core/util/Macros.h:
+
+/usr/include/c++/4.8.2/complex:
 
 /usr/include/c++/4.8.2/sstream:
 
@@ -639,10 +665,6 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
 
 /usr/include/c++/4.8.2/cstdlib:
 
-/usr/include/c++/4.8.2/cassert:
-
-/usr/include/assert.h:
-
 /usr/include/c++/4.8.2/functional:
 
 /usr/include/c++/4.8.2/cstring:
@@ -668,8 +690,6 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
 /usr/include/bits/posix2_lim.h:
 
 /usr/include/bits/xopen_lim.h:
-
-/usr/include/bits/stdio_lim.h:
 
 /usr/include/c++/4.8.2/algorithm:
 
@@ -1009,26 +1029,6 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
 
 /home/szm/cd/alize-core/alize-core/include/Matrix.h:
 
-/usr/include/c++/4.8.2/cstdio:
-
-/usr/include/libio.h:
-
-/usr/include/_G_config.h:
-
-/usr/include/bits/sys_errlist.h:
-
-/usr/include/bits/stdio.h:
-
-/usr/include/c++/4.8.2/fstream:
-
-/usr/include/c++/4.8.2/bits/codecvt.h:
-
-/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/basic_file.h:
-
-/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++io.h:
-
-/usr/include/c++/4.8.2/bits/fstream.tcc:
-
 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h:
 
 /usr/include/stdint.h:
@@ -1214,3 +1214,5 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
 ../../../LIA_SpkTools/include/PldaTools.h:
 
 ../../../include/Eigen/Core:
+
+../include/EigenChannel.h:

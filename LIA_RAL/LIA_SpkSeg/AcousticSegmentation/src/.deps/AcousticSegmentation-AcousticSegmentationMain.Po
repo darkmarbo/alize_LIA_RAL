@@ -1,4 +1,5 @@
-ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
+AcousticSegmentation-AcousticSegmentationMain.o: \
+ AcousticSegmentationMain.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/4.8.2/iostream \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -365,7 +366,8 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
  ../../../LIA_SpkTools/include/SuperVectors.h \
  ../../../LIA_SpkTools/include/FactorAnalysis.h \
  ../../../LIA_SpkTools/include/TopGauss.h \
- ../../../LIA_SpkTools/include/PldaTools.h ../../../include/Eigen/Core
+ ../../../LIA_SpkTools/include/PldaTools.h ../../../include/Eigen/Core \
+ ../include/AcousticSegmentation.h
 
 /usr/include/stdc-predef.h:
 
@@ -1214,3 +1216,5 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
 ../../../LIA_SpkTools/include/PldaTools.h:
 
 ../../../include/Eigen/Core:
+
+../include/AcousticSegmentation.h:

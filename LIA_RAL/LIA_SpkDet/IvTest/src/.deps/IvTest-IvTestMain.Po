@@ -1,4 +1,4 @@
-ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
+IvTest-IvTestMain.o: IvTestMain.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/4.8.2/iostream \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -70,42 +70,138 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/4.8.2/bits/basic_ios.tcc \
  /usr/include/c++/4.8.2/bits/ostream.tcc /usr/include/c++/4.8.2/istream \
  /usr/include/c++/4.8.2/bits/istream.tcc \
- ../../../LIA_SpkTools/include/liatools.h ../../../include/Eigen/Dense \
- ../../../include/Eigen/Core \
- ../../../include/Eigen/src/Core/util/DisableStupidWarnings.h \
- ../../../include/Eigen/src/Core/util/Macros.h \
- /usr/include/c++/4.8.2/complex /usr/include/c++/4.8.2/cmath \
+ /home/szm/cd/alize-core/alize-core/include/alize.h \
+ /home/szm/cd/alize-core/alize-core/include/AutoDestructor.h \
+ /home/szm/cd/alize-core/alize-core/include/Object.h \
+ /usr/include/c++/4.8.2/cassert /usr/include/assert.h \
+ /home/szm/cd/alize-core/alize-core/include/Exception.h \
+ /home/szm/cd/alize-core/alize-core/include/alizeString.h \
+ /home/szm/cd/alize-core/alize-core/include/RealVector.h \
  /usr/include/math.h /usr/include/bits/huge_val.h \
  /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
  /usr/include/bits/inf.h /usr/include/bits/nan.h \
  /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
  /usr/include/bits/mathinline.h /usr/include/bits/math-finite.h \
+ /usr/include/memory.h /usr/include/string.h \
+ /usr/include/c++/4.8.2/cstdlib /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/sys/types.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h \
+ /home/szm/cd/alize-core/alize-core/include/RefVector.h \
+ /home/szm/cd/alize-core/alize-core/include/DoubleSquareMatrix.h \
+ /home/szm/cd/alize-core/alize-core/include/Feature.h \
+ /home/szm/cd/alize-core/alize-core/include/Matrix.h \
+ /usr/include/c++/4.8.2/cstdio /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/bits/stdio_lim.h \
+ /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h \
+ /usr/include/c++/4.8.2/fstream /usr/include/c++/4.8.2/bits/codecvt.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/basic_file.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++io.h \
+ /usr/include/c++/4.8.2/bits/fstream.tcc \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
+ /usr/include/stdint.h \
+ /home/szm/cd/alize-core/alize-core/include/Config.h \
+ /home/szm/cd/alize-core/alize-core/include/FeatureFlags.h \
+ /home/szm/cd/alize-core/alize-core/include/XList.h \
+ /home/szm/cd/alize-core/alize-core/include/XLine.h \
+ /home/szm/cd/alize-core/alize-core/include/BoolMatrix.h \
+ /home/szm/cd/alize-core/alize-core/include/ULongVector.h \
+ /home/szm/cd/alize-core/alize-core/include/Label.h \
+ /home/szm/cd/alize-core/alize-core/include/Histo.h \
+ /home/szm/cd/alize-core/alize-core/include/LabelSet.h \
+ /home/szm/cd/alize-core/alize-core/include/CmdLine.h \
+ /home/szm/cd/alize-core/alize-core/include/Seg.h \
+ /home/szm/cd/alize-core/alize-core/include/SegAbstract.h \
+ /home/szm/cd/alize-core/alize-core/include/SegServer.h \
+ /usr/include/c++/4.8.2/map /usr/include/c++/4.8.2/bits/stl_tree.h \
+ /usr/include/c++/4.8.2/bits/stl_map.h \
+ /usr/include/c++/4.8.2/bits/stl_multimap.h \
+ /home/szm/cd/alize-core/alize-core/include/SegCluster.h \
+ /home/szm/cd/alize-core/alize-core/include/SegServerFileWriter.h \
+ /home/szm/cd/alize-core/alize-core/include/FileWriter.h \
+ /home/szm/cd/alize-core/alize-core/include/SegServerFileReaderRaw.h \
+ /home/szm/cd/alize-core/alize-core/include/SegServerFileReaderAbstract.h \
+ /home/szm/cd/alize-core/alize-core/include/FileReader.h \
+ /home/szm/cd/alize-core/alize-core/include/DistribGD.h \
+ /home/szm/cd/alize-core/alize-core/include/Distrib.h \
+ /home/szm/cd/alize-core/alize-core/include/DistribGF.h \
+ /home/szm/cd/alize-core/alize-core/include/MixtureGD.h \
+ /home/szm/cd/alize-core/alize-core/include/Mixture.h \
+ /home/szm/cd/alize-core/alize-core/include/DistribRefVector.h \
+ /home/szm/cd/alize-core/alize-core/include/MixtureGF.h \
+ /home/szm/cd/alize-core/alize-core/include/LabelServer.h \
+ /home/szm/cd/alize-core/alize-core/include/MixtureServer.h \
+ /home/szm/cd/alize-core/alize-core/include/MixtureDict.h \
+ /home/szm/cd/alize-core/alize-core/include/FeatureServer.h \
+ /home/szm/cd/alize-core/alize-core/include/FeatureInputStream.h \
+ /home/szm/cd/alize-core/alize-core/include/MixtureStat.h \
+ /home/szm/cd/alize-core/alize-core/include/StatServer.h \
+ /home/szm/cd/alize-core/alize-core/include/LKVector.h \
+ /home/szm/cd/alize-core/alize-core/include/ViterbiAccum.h \
+ /home/szm/cd/alize-core/alize-core/include/MixtureGDStat.h \
+ /home/szm/cd/alize-core/alize-core/include/MixtureGFStat.h \
+ /home/szm/cd/alize-core/alize-core/include/FrameAcc.h \
+ /home/szm/cd/alize-core/alize-core/include/FrameAccGD.h \
+ /home/szm/cd/alize-core/alize-core/include/FrameAccGF.h \
+ /home/szm/cd/alize-core/alize-core/include/FeatureMultipleFileReader.h \
+ /home/szm/cd/alize-core/alize-core/include/FeatureFileReaderAbstract.h \
+ /home/szm/cd/alize-core/alize-core/include/FeatureFileList.h \
+ /home/szm/cd/alize-core/alize-core/include/FeatureFileReader.h \
+ /home/szm/cd/alize-core/alize-core/include/FeatureFileReaderRaw.h \
+ /home/szm/cd/alize-core/alize-core/include/FeatureFileReaderSingle.h \
+ /home/szm/cd/alize-core/alize-core/include/FeatureFileReaderSPro3.h \
+ /home/szm/cd/alize-core/alize-core/include/FeatureFileReaderSPro4.h \
+ /home/szm/cd/alize-core/alize-core/include/FeatureFileReaderHTK.h \
+ /home/szm/cd/alize-core/alize-core/include/FeatureInputStreamModifier.h \
+ /home/szm/cd/alize-core/alize-core/include/MixtureFileReaderAmiral.h \
+ /home/szm/cd/alize-core/alize-core/include/MixtureFileReaderAbstract.h \
+ /home/szm/cd/alize-core/alize-core/include/MixtureFileReaderRaw.h \
+ /home/szm/cd/alize-core/alize-core/include/MixtureFileReaderXml.h \
+ /home/szm/cd/alize-core/alize-core/include/XmlParser.h \
+ /home/szm/cd/alize-core/alize-core/include/MixtureFileReader.h \
+ /home/szm/cd/alize-core/alize-core/include/MixtureFileWriter.h \
+ /home/szm/cd/alize-core/alize-core/include/MixtureServerFileWriter.h \
+ /home/szm/cd/alize-core/alize-core/include/MixtureServerFileReader.h \
+ /home/szm/cd/alize-core/alize-core/include/MixtureServerFileReaderAbstract.h \
+ /home/szm/cd/alize-core/alize-core/include/MixtureServerFileReaderXml.h \
+ /home/szm/cd/alize-core/alize-core/include/MixtureServerFileReaderRaw.h \
+ /home/szm/cd/alize-core/alize-core/include/FeatureFileWriter.h \
+ /home/szm/cd/alize-core/alize-core/include/ConfigFileReaderRaw.h \
+ /home/szm/cd/alize-core/alize-core/include/ConfigFileReaderAbstract.h \
+ /home/szm/cd/alize-core/alize-core/include/ConfigFileReaderXml.h \
+ /home/szm/cd/alize-core/alize-core/include/ConfigFileWriter.h \
+ /home/szm/cd/alize-core/alize-core/include/XListFileReader.h \
+ /home/szm/cd/alize-core/alize-core/include/LabelFileReader.h \
+ /home/szm/cd/alize-core/alize-core/include/AudioFrame.h \
+ /home/szm/cd/alize-core/alize-core/include/AudioFileReader.h \
+ /home/szm/cd/alize-core/alize-core/include/AudioInputStream.h \
+ /home/szm/cd/alize-core/alize-core/include/ConfigChecker.h \
+ ../../../LIA_SpkTools/include/liatools.h ../../../include/Eigen/Dense \
+ ../../../include/Eigen/Core \
+ ../../../include/Eigen/src/Core/util/DisableStupidWarnings.h \
+ ../../../include/Eigen/src/Core/util/Macros.h \
+ /usr/include/c++/4.8.2/complex /usr/include/c++/4.8.2/cmath \
  /usr/include/c++/4.8.2/sstream /usr/include/c++/4.8.2/bits/sstream.tcc \
  ../../../include/Eigen/src/Core/util/MKL_support.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/emmintrin.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/mmintrin.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/mm_malloc.h \
- /usr/include/stdlib.h /usr/include/bits/waitflags.h \
- /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
- /usr/include/sys/select.h /usr/include/bits/select.h \
- /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h \
- /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
  /usr/include/c++/4.8.2/cerrno /usr/include/errno.h \
  /usr/include/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h /usr/include/c++/4.8.2/cstddef \
- /usr/include/c++/4.8.2/cstdlib /usr/include/c++/4.8.2/cassert \
- /usr/include/assert.h /usr/include/c++/4.8.2/functional \
- /usr/include/c++/4.8.2/cstring /usr/include/string.h \
+ /usr/include/c++/4.8.2/functional /usr/include/c++/4.8.2/cstring \
  /usr/include/c++/4.8.2/limits /usr/include/c++/4.8.2/climits \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/bits/stdio_lim.h /usr/include/c++/4.8.2/algorithm \
- /usr/include/c++/4.8.2/utility /usr/include/c++/4.8.2/bits/stl_relops.h \
+ /usr/include/c++/4.8.2/algorithm /usr/include/c++/4.8.2/utility \
+ /usr/include/c++/4.8.2/bits/stl_relops.h \
  /usr/include/c++/4.8.2/bits/stl_algo.h \
  /usr/include/c++/4.8.2/bits/algorithmfwd.h \
  /usr/include/c++/4.8.2/bits/stl_heap.h \
@@ -257,102 +353,6 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
  ../../../include/Eigen/src/Eigenvalues/EigenSolver.h \
  ../../../include/Eigen/Eigenvalues \
  ../../../LIA_SpkTools/include/GeneralTools.h \
- /home/szm/cd/alize-core/alize-core/include/alize.h \
- /home/szm/cd/alize-core/alize-core/include/AutoDestructor.h \
- /home/szm/cd/alize-core/alize-core/include/Object.h \
- /home/szm/cd/alize-core/alize-core/include/Exception.h \
- /home/szm/cd/alize-core/alize-core/include/alizeString.h \
- /home/szm/cd/alize-core/alize-core/include/RealVector.h \
- /usr/include/memory.h \
- /home/szm/cd/alize-core/alize-core/include/RefVector.h \
- /home/szm/cd/alize-core/alize-core/include/DoubleSquareMatrix.h \
- /home/szm/cd/alize-core/alize-core/include/Feature.h \
- /home/szm/cd/alize-core/alize-core/include/Matrix.h \
- /usr/include/c++/4.8.2/cstdio /usr/include/libio.h \
- /usr/include/_G_config.h /usr/include/bits/sys_errlist.h \
- /usr/include/bits/stdio.h /usr/include/c++/4.8.2/fstream \
- /usr/include/c++/4.8.2/bits/codecvt.h \
- /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/basic_file.h \
- /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++io.h \
- /usr/include/c++/4.8.2/bits/fstream.tcc \
- /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
- /usr/include/stdint.h \
- /home/szm/cd/alize-core/alize-core/include/Config.h \
- /home/szm/cd/alize-core/alize-core/include/FeatureFlags.h \
- /home/szm/cd/alize-core/alize-core/include/XList.h \
- /home/szm/cd/alize-core/alize-core/include/XLine.h \
- /home/szm/cd/alize-core/alize-core/include/BoolMatrix.h \
- /home/szm/cd/alize-core/alize-core/include/ULongVector.h \
- /home/szm/cd/alize-core/alize-core/include/Label.h \
- /home/szm/cd/alize-core/alize-core/include/Histo.h \
- /home/szm/cd/alize-core/alize-core/include/LabelSet.h \
- /home/szm/cd/alize-core/alize-core/include/CmdLine.h \
- /home/szm/cd/alize-core/alize-core/include/Seg.h \
- /home/szm/cd/alize-core/alize-core/include/SegAbstract.h \
- /home/szm/cd/alize-core/alize-core/include/SegServer.h \
- /usr/include/c++/4.8.2/map /usr/include/c++/4.8.2/bits/stl_tree.h \
- /usr/include/c++/4.8.2/bits/stl_map.h \
- /usr/include/c++/4.8.2/bits/stl_multimap.h \
- /home/szm/cd/alize-core/alize-core/include/SegCluster.h \
- /home/szm/cd/alize-core/alize-core/include/SegServerFileWriter.h \
- /home/szm/cd/alize-core/alize-core/include/FileWriter.h \
- /home/szm/cd/alize-core/alize-core/include/SegServerFileReaderRaw.h \
- /home/szm/cd/alize-core/alize-core/include/SegServerFileReaderAbstract.h \
- /home/szm/cd/alize-core/alize-core/include/FileReader.h \
- /home/szm/cd/alize-core/alize-core/include/DistribGD.h \
- /home/szm/cd/alize-core/alize-core/include/Distrib.h \
- /home/szm/cd/alize-core/alize-core/include/DistribGF.h \
- /home/szm/cd/alize-core/alize-core/include/MixtureGD.h \
- /home/szm/cd/alize-core/alize-core/include/Mixture.h \
- /home/szm/cd/alize-core/alize-core/include/DistribRefVector.h \
- /home/szm/cd/alize-core/alize-core/include/MixtureGF.h \
- /home/szm/cd/alize-core/alize-core/include/LabelServer.h \
- /home/szm/cd/alize-core/alize-core/include/MixtureServer.h \
- /home/szm/cd/alize-core/alize-core/include/MixtureDict.h \
- /home/szm/cd/alize-core/alize-core/include/FeatureServer.h \
- /home/szm/cd/alize-core/alize-core/include/FeatureInputStream.h \
- /home/szm/cd/alize-core/alize-core/include/MixtureStat.h \
- /home/szm/cd/alize-core/alize-core/include/StatServer.h \
- /home/szm/cd/alize-core/alize-core/include/LKVector.h \
- /home/szm/cd/alize-core/alize-core/include/ViterbiAccum.h \
- /home/szm/cd/alize-core/alize-core/include/MixtureGDStat.h \
- /home/szm/cd/alize-core/alize-core/include/MixtureGFStat.h \
- /home/szm/cd/alize-core/alize-core/include/FrameAcc.h \
- /home/szm/cd/alize-core/alize-core/include/FrameAccGD.h \
- /home/szm/cd/alize-core/alize-core/include/FrameAccGF.h \
- /home/szm/cd/alize-core/alize-core/include/FeatureMultipleFileReader.h \
- /home/szm/cd/alize-core/alize-core/include/FeatureFileReaderAbstract.h \
- /home/szm/cd/alize-core/alize-core/include/FeatureFileList.h \
- /home/szm/cd/alize-core/alize-core/include/FeatureFileReader.h \
- /home/szm/cd/alize-core/alize-core/include/FeatureFileReaderRaw.h \
- /home/szm/cd/alize-core/alize-core/include/FeatureFileReaderSingle.h \
- /home/szm/cd/alize-core/alize-core/include/FeatureFileReaderSPro3.h \
- /home/szm/cd/alize-core/alize-core/include/FeatureFileReaderSPro4.h \
- /home/szm/cd/alize-core/alize-core/include/FeatureFileReaderHTK.h \
- /home/szm/cd/alize-core/alize-core/include/FeatureInputStreamModifier.h \
- /home/szm/cd/alize-core/alize-core/include/MixtureFileReaderAmiral.h \
- /home/szm/cd/alize-core/alize-core/include/MixtureFileReaderAbstract.h \
- /home/szm/cd/alize-core/alize-core/include/MixtureFileReaderRaw.h \
- /home/szm/cd/alize-core/alize-core/include/MixtureFileReaderXml.h \
- /home/szm/cd/alize-core/alize-core/include/XmlParser.h \
- /home/szm/cd/alize-core/alize-core/include/MixtureFileReader.h \
- /home/szm/cd/alize-core/alize-core/include/MixtureFileWriter.h \
- /home/szm/cd/alize-core/alize-core/include/MixtureServerFileWriter.h \
- /home/szm/cd/alize-core/alize-core/include/MixtureServerFileReader.h \
- /home/szm/cd/alize-core/alize-core/include/MixtureServerFileReaderAbstract.h \
- /home/szm/cd/alize-core/alize-core/include/MixtureServerFileReaderXml.h \
- /home/szm/cd/alize-core/alize-core/include/MixtureServerFileReaderRaw.h \
- /home/szm/cd/alize-core/alize-core/include/FeatureFileWriter.h \
- /home/szm/cd/alize-core/alize-core/include/ConfigFileReaderRaw.h \
- /home/szm/cd/alize-core/alize-core/include/ConfigFileReaderAbstract.h \
- /home/szm/cd/alize-core/alize-core/include/ConfigFileReaderXml.h \
- /home/szm/cd/alize-core/alize-core/include/ConfigFileWriter.h \
- /home/szm/cd/alize-core/alize-core/include/XListFileReader.h \
- /home/szm/cd/alize-core/alize-core/include/LabelFileReader.h \
- /home/szm/cd/alize-core/alize-core/include/AudioFrame.h \
- /home/szm/cd/alize-core/alize-core/include/AudioFileReader.h \
- /home/szm/cd/alize-core/alize-core/include/AudioInputStream.h \
- /home/szm/cd/alize-core/alize-core/include/ConfigChecker.h \
  ../../../LIA_SpkTools/include/liatools.h \
  ../../../LIA_SpkTools/include/AccumulateStat.h \
  ../../../LIA_SpkTools/include/AccumulateJFAStat.h \
@@ -365,7 +365,8 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
  ../../../LIA_SpkTools/include/SuperVectors.h \
  ../../../LIA_SpkTools/include/FactorAnalysis.h \
  ../../../LIA_SpkTools/include/TopGauss.h \
- ../../../LIA_SpkTools/include/PldaTools.h ../../../include/Eigen/Core
+ ../../../LIA_SpkTools/include/PldaTools.h ../../../include/Eigen/Core \
+ ../include/IvTest.h
 
 /usr/include/stdc-predef.h:
 
@@ -553,19 +554,21 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
 
 /usr/include/c++/4.8.2/bits/istream.tcc:
 
-../../../LIA_SpkTools/include/liatools.h:
+/home/szm/cd/alize-core/alize-core/include/alize.h:
 
-../../../include/Eigen/Dense:
+/home/szm/cd/alize-core/alize-core/include/AutoDestructor.h:
 
-../../../include/Eigen/Core:
+/home/szm/cd/alize-core/alize-core/include/Object.h:
 
-../../../include/Eigen/src/Core/util/DisableStupidWarnings.h:
+/usr/include/c++/4.8.2/cassert:
 
-../../../include/Eigen/src/Core/util/Macros.h:
+/usr/include/assert.h:
 
-/usr/include/c++/4.8.2/complex:
+/home/szm/cd/alize-core/alize-core/include/Exception.h:
 
-/usr/include/c++/4.8.2/cmath:
+/home/szm/cd/alize-core/alize-core/include/alizeString.h:
+
+/home/szm/cd/alize-core/alize-core/include/RealVector.h:
 
 /usr/include/math.h:
 
@@ -587,19 +590,11 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
 
 /usr/include/bits/math-finite.h:
 
-/usr/include/c++/4.8.2/sstream:
+/usr/include/memory.h:
 
-/usr/include/c++/4.8.2/bits/sstream.tcc:
+/usr/include/string.h:
 
-../../../include/Eigen/src/Core/util/MKL_support.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/emmintrin.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/xmmintrin.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/mmintrin.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/mm_malloc.h:
+/usr/include/c++/4.8.2/cstdlib:
 
 /usr/include/stdlib.h:
 
@@ -621,6 +616,222 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
 
 /usr/include/bits/stdlib-float.h:
 
+/home/szm/cd/alize-core/alize-core/include/RefVector.h:
+
+/home/szm/cd/alize-core/alize-core/include/DoubleSquareMatrix.h:
+
+/home/szm/cd/alize-core/alize-core/include/Feature.h:
+
+/home/szm/cd/alize-core/alize-core/include/Matrix.h:
+
+/usr/include/c++/4.8.2/cstdio:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/c++/4.8.2/fstream:
+
+/usr/include/c++/4.8.2/bits/codecvt.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/basic_file.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++io.h:
+
+/usr/include/c++/4.8.2/bits/fstream.tcc:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/home/szm/cd/alize-core/alize-core/include/Config.h:
+
+/home/szm/cd/alize-core/alize-core/include/FeatureFlags.h:
+
+/home/szm/cd/alize-core/alize-core/include/XList.h:
+
+/home/szm/cd/alize-core/alize-core/include/XLine.h:
+
+/home/szm/cd/alize-core/alize-core/include/BoolMatrix.h:
+
+/home/szm/cd/alize-core/alize-core/include/ULongVector.h:
+
+/home/szm/cd/alize-core/alize-core/include/Label.h:
+
+/home/szm/cd/alize-core/alize-core/include/Histo.h:
+
+/home/szm/cd/alize-core/alize-core/include/LabelSet.h:
+
+/home/szm/cd/alize-core/alize-core/include/CmdLine.h:
+
+/home/szm/cd/alize-core/alize-core/include/Seg.h:
+
+/home/szm/cd/alize-core/alize-core/include/SegAbstract.h:
+
+/home/szm/cd/alize-core/alize-core/include/SegServer.h:
+
+/usr/include/c++/4.8.2/map:
+
+/usr/include/c++/4.8.2/bits/stl_tree.h:
+
+/usr/include/c++/4.8.2/bits/stl_map.h:
+
+/usr/include/c++/4.8.2/bits/stl_multimap.h:
+
+/home/szm/cd/alize-core/alize-core/include/SegCluster.h:
+
+/home/szm/cd/alize-core/alize-core/include/SegServerFileWriter.h:
+
+/home/szm/cd/alize-core/alize-core/include/FileWriter.h:
+
+/home/szm/cd/alize-core/alize-core/include/SegServerFileReaderRaw.h:
+
+/home/szm/cd/alize-core/alize-core/include/SegServerFileReaderAbstract.h:
+
+/home/szm/cd/alize-core/alize-core/include/FileReader.h:
+
+/home/szm/cd/alize-core/alize-core/include/DistribGD.h:
+
+/home/szm/cd/alize-core/alize-core/include/Distrib.h:
+
+/home/szm/cd/alize-core/alize-core/include/DistribGF.h:
+
+/home/szm/cd/alize-core/alize-core/include/MixtureGD.h:
+
+/home/szm/cd/alize-core/alize-core/include/Mixture.h:
+
+/home/szm/cd/alize-core/alize-core/include/DistribRefVector.h:
+
+/home/szm/cd/alize-core/alize-core/include/MixtureGF.h:
+
+/home/szm/cd/alize-core/alize-core/include/LabelServer.h:
+
+/home/szm/cd/alize-core/alize-core/include/MixtureServer.h:
+
+/home/szm/cd/alize-core/alize-core/include/MixtureDict.h:
+
+/home/szm/cd/alize-core/alize-core/include/FeatureServer.h:
+
+/home/szm/cd/alize-core/alize-core/include/FeatureInputStream.h:
+
+/home/szm/cd/alize-core/alize-core/include/MixtureStat.h:
+
+/home/szm/cd/alize-core/alize-core/include/StatServer.h:
+
+/home/szm/cd/alize-core/alize-core/include/LKVector.h:
+
+/home/szm/cd/alize-core/alize-core/include/ViterbiAccum.h:
+
+/home/szm/cd/alize-core/alize-core/include/MixtureGDStat.h:
+
+/home/szm/cd/alize-core/alize-core/include/MixtureGFStat.h:
+
+/home/szm/cd/alize-core/alize-core/include/FrameAcc.h:
+
+/home/szm/cd/alize-core/alize-core/include/FrameAccGD.h:
+
+/home/szm/cd/alize-core/alize-core/include/FrameAccGF.h:
+
+/home/szm/cd/alize-core/alize-core/include/FeatureMultipleFileReader.h:
+
+/home/szm/cd/alize-core/alize-core/include/FeatureFileReaderAbstract.h:
+
+/home/szm/cd/alize-core/alize-core/include/FeatureFileList.h:
+
+/home/szm/cd/alize-core/alize-core/include/FeatureFileReader.h:
+
+/home/szm/cd/alize-core/alize-core/include/FeatureFileReaderRaw.h:
+
+/home/szm/cd/alize-core/alize-core/include/FeatureFileReaderSingle.h:
+
+/home/szm/cd/alize-core/alize-core/include/FeatureFileReaderSPro3.h:
+
+/home/szm/cd/alize-core/alize-core/include/FeatureFileReaderSPro4.h:
+
+/home/szm/cd/alize-core/alize-core/include/FeatureFileReaderHTK.h:
+
+/home/szm/cd/alize-core/alize-core/include/FeatureInputStreamModifier.h:
+
+/home/szm/cd/alize-core/alize-core/include/MixtureFileReaderAmiral.h:
+
+/home/szm/cd/alize-core/alize-core/include/MixtureFileReaderAbstract.h:
+
+/home/szm/cd/alize-core/alize-core/include/MixtureFileReaderRaw.h:
+
+/home/szm/cd/alize-core/alize-core/include/MixtureFileReaderXml.h:
+
+/home/szm/cd/alize-core/alize-core/include/XmlParser.h:
+
+/home/szm/cd/alize-core/alize-core/include/MixtureFileReader.h:
+
+/home/szm/cd/alize-core/alize-core/include/MixtureFileWriter.h:
+
+/home/szm/cd/alize-core/alize-core/include/MixtureServerFileWriter.h:
+
+/home/szm/cd/alize-core/alize-core/include/MixtureServerFileReader.h:
+
+/home/szm/cd/alize-core/alize-core/include/MixtureServerFileReaderAbstract.h:
+
+/home/szm/cd/alize-core/alize-core/include/MixtureServerFileReaderXml.h:
+
+/home/szm/cd/alize-core/alize-core/include/MixtureServerFileReaderRaw.h:
+
+/home/szm/cd/alize-core/alize-core/include/FeatureFileWriter.h:
+
+/home/szm/cd/alize-core/alize-core/include/ConfigFileReaderRaw.h:
+
+/home/szm/cd/alize-core/alize-core/include/ConfigFileReaderAbstract.h:
+
+/home/szm/cd/alize-core/alize-core/include/ConfigFileReaderXml.h:
+
+/home/szm/cd/alize-core/alize-core/include/ConfigFileWriter.h:
+
+/home/szm/cd/alize-core/alize-core/include/XListFileReader.h:
+
+/home/szm/cd/alize-core/alize-core/include/LabelFileReader.h:
+
+/home/szm/cd/alize-core/alize-core/include/AudioFrame.h:
+
+/home/szm/cd/alize-core/alize-core/include/AudioFileReader.h:
+
+/home/szm/cd/alize-core/alize-core/include/AudioInputStream.h:
+
+/home/szm/cd/alize-core/alize-core/include/ConfigChecker.h:
+
+../../../LIA_SpkTools/include/liatools.h:
+
+../../../include/Eigen/Dense:
+
+../../../include/Eigen/Core:
+
+../../../include/Eigen/src/Core/util/DisableStupidWarnings.h:
+
+../../../include/Eigen/src/Core/util/Macros.h:
+
+/usr/include/c++/4.8.2/complex:
+
+/usr/include/c++/4.8.2/cmath:
+
+/usr/include/c++/4.8.2/sstream:
+
+/usr/include/c++/4.8.2/bits/sstream.tcc:
+
+../../../include/Eigen/src/Core/util/MKL_support.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/emmintrin.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/xmmintrin.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/mmintrin.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/mm_malloc.h:
+
 /usr/include/c++/4.8.2/cerrno:
 
 /usr/include/errno.h:
@@ -637,17 +848,9 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
 
 /usr/include/c++/4.8.2/cstddef:
 
-/usr/include/c++/4.8.2/cstdlib:
-
-/usr/include/c++/4.8.2/cassert:
-
-/usr/include/assert.h:
-
 /usr/include/c++/4.8.2/functional:
 
 /usr/include/c++/4.8.2/cstring:
-
-/usr/include/string.h:
 
 /usr/include/c++/4.8.2/limits:
 
@@ -668,8 +871,6 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
 /usr/include/bits/posix2_lim.h:
 
 /usr/include/bits/xopen_lim.h:
-
-/usr/include/bits/stdio_lim.h:
 
 /usr/include/c++/4.8.2/algorithm:
 
@@ -987,206 +1188,6 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
 
 ../../../LIA_SpkTools/include/GeneralTools.h:
 
-/home/szm/cd/alize-core/alize-core/include/alize.h:
-
-/home/szm/cd/alize-core/alize-core/include/AutoDestructor.h:
-
-/home/szm/cd/alize-core/alize-core/include/Object.h:
-
-/home/szm/cd/alize-core/alize-core/include/Exception.h:
-
-/home/szm/cd/alize-core/alize-core/include/alizeString.h:
-
-/home/szm/cd/alize-core/alize-core/include/RealVector.h:
-
-/usr/include/memory.h:
-
-/home/szm/cd/alize-core/alize-core/include/RefVector.h:
-
-/home/szm/cd/alize-core/alize-core/include/DoubleSquareMatrix.h:
-
-/home/szm/cd/alize-core/alize-core/include/Feature.h:
-
-/home/szm/cd/alize-core/alize-core/include/Matrix.h:
-
-/usr/include/c++/4.8.2/cstdio:
-
-/usr/include/libio.h:
-
-/usr/include/_G_config.h:
-
-/usr/include/bits/sys_errlist.h:
-
-/usr/include/bits/stdio.h:
-
-/usr/include/c++/4.8.2/fstream:
-
-/usr/include/c++/4.8.2/bits/codecvt.h:
-
-/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/basic_file.h:
-
-/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++io.h:
-
-/usr/include/c++/4.8.2/bits/fstream.tcc:
-
-/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h:
-
-/usr/include/stdint.h:
-
-/home/szm/cd/alize-core/alize-core/include/Config.h:
-
-/home/szm/cd/alize-core/alize-core/include/FeatureFlags.h:
-
-/home/szm/cd/alize-core/alize-core/include/XList.h:
-
-/home/szm/cd/alize-core/alize-core/include/XLine.h:
-
-/home/szm/cd/alize-core/alize-core/include/BoolMatrix.h:
-
-/home/szm/cd/alize-core/alize-core/include/ULongVector.h:
-
-/home/szm/cd/alize-core/alize-core/include/Label.h:
-
-/home/szm/cd/alize-core/alize-core/include/Histo.h:
-
-/home/szm/cd/alize-core/alize-core/include/LabelSet.h:
-
-/home/szm/cd/alize-core/alize-core/include/CmdLine.h:
-
-/home/szm/cd/alize-core/alize-core/include/Seg.h:
-
-/home/szm/cd/alize-core/alize-core/include/SegAbstract.h:
-
-/home/szm/cd/alize-core/alize-core/include/SegServer.h:
-
-/usr/include/c++/4.8.2/map:
-
-/usr/include/c++/4.8.2/bits/stl_tree.h:
-
-/usr/include/c++/4.8.2/bits/stl_map.h:
-
-/usr/include/c++/4.8.2/bits/stl_multimap.h:
-
-/home/szm/cd/alize-core/alize-core/include/SegCluster.h:
-
-/home/szm/cd/alize-core/alize-core/include/SegServerFileWriter.h:
-
-/home/szm/cd/alize-core/alize-core/include/FileWriter.h:
-
-/home/szm/cd/alize-core/alize-core/include/SegServerFileReaderRaw.h:
-
-/home/szm/cd/alize-core/alize-core/include/SegServerFileReaderAbstract.h:
-
-/home/szm/cd/alize-core/alize-core/include/FileReader.h:
-
-/home/szm/cd/alize-core/alize-core/include/DistribGD.h:
-
-/home/szm/cd/alize-core/alize-core/include/Distrib.h:
-
-/home/szm/cd/alize-core/alize-core/include/DistribGF.h:
-
-/home/szm/cd/alize-core/alize-core/include/MixtureGD.h:
-
-/home/szm/cd/alize-core/alize-core/include/Mixture.h:
-
-/home/szm/cd/alize-core/alize-core/include/DistribRefVector.h:
-
-/home/szm/cd/alize-core/alize-core/include/MixtureGF.h:
-
-/home/szm/cd/alize-core/alize-core/include/LabelServer.h:
-
-/home/szm/cd/alize-core/alize-core/include/MixtureServer.h:
-
-/home/szm/cd/alize-core/alize-core/include/MixtureDict.h:
-
-/home/szm/cd/alize-core/alize-core/include/FeatureServer.h:
-
-/home/szm/cd/alize-core/alize-core/include/FeatureInputStream.h:
-
-/home/szm/cd/alize-core/alize-core/include/MixtureStat.h:
-
-/home/szm/cd/alize-core/alize-core/include/StatServer.h:
-
-/home/szm/cd/alize-core/alize-core/include/LKVector.h:
-
-/home/szm/cd/alize-core/alize-core/include/ViterbiAccum.h:
-
-/home/szm/cd/alize-core/alize-core/include/MixtureGDStat.h:
-
-/home/szm/cd/alize-core/alize-core/include/MixtureGFStat.h:
-
-/home/szm/cd/alize-core/alize-core/include/FrameAcc.h:
-
-/home/szm/cd/alize-core/alize-core/include/FrameAccGD.h:
-
-/home/szm/cd/alize-core/alize-core/include/FrameAccGF.h:
-
-/home/szm/cd/alize-core/alize-core/include/FeatureMultipleFileReader.h:
-
-/home/szm/cd/alize-core/alize-core/include/FeatureFileReaderAbstract.h:
-
-/home/szm/cd/alize-core/alize-core/include/FeatureFileList.h:
-
-/home/szm/cd/alize-core/alize-core/include/FeatureFileReader.h:
-
-/home/szm/cd/alize-core/alize-core/include/FeatureFileReaderRaw.h:
-
-/home/szm/cd/alize-core/alize-core/include/FeatureFileReaderSingle.h:
-
-/home/szm/cd/alize-core/alize-core/include/FeatureFileReaderSPro3.h:
-
-/home/szm/cd/alize-core/alize-core/include/FeatureFileReaderSPro4.h:
-
-/home/szm/cd/alize-core/alize-core/include/FeatureFileReaderHTK.h:
-
-/home/szm/cd/alize-core/alize-core/include/FeatureInputStreamModifier.h:
-
-/home/szm/cd/alize-core/alize-core/include/MixtureFileReaderAmiral.h:
-
-/home/szm/cd/alize-core/alize-core/include/MixtureFileReaderAbstract.h:
-
-/home/szm/cd/alize-core/alize-core/include/MixtureFileReaderRaw.h:
-
-/home/szm/cd/alize-core/alize-core/include/MixtureFileReaderXml.h:
-
-/home/szm/cd/alize-core/alize-core/include/XmlParser.h:
-
-/home/szm/cd/alize-core/alize-core/include/MixtureFileReader.h:
-
-/home/szm/cd/alize-core/alize-core/include/MixtureFileWriter.h:
-
-/home/szm/cd/alize-core/alize-core/include/MixtureServerFileWriter.h:
-
-/home/szm/cd/alize-core/alize-core/include/MixtureServerFileReader.h:
-
-/home/szm/cd/alize-core/alize-core/include/MixtureServerFileReaderAbstract.h:
-
-/home/szm/cd/alize-core/alize-core/include/MixtureServerFileReaderXml.h:
-
-/home/szm/cd/alize-core/alize-core/include/MixtureServerFileReaderRaw.h:
-
-/home/szm/cd/alize-core/alize-core/include/FeatureFileWriter.h:
-
-/home/szm/cd/alize-core/alize-core/include/ConfigFileReaderRaw.h:
-
-/home/szm/cd/alize-core/alize-core/include/ConfigFileReaderAbstract.h:
-
-/home/szm/cd/alize-core/alize-core/include/ConfigFileReaderXml.h:
-
-/home/szm/cd/alize-core/alize-core/include/ConfigFileWriter.h:
-
-/home/szm/cd/alize-core/alize-core/include/XListFileReader.h:
-
-/home/szm/cd/alize-core/alize-core/include/LabelFileReader.h:
-
-/home/szm/cd/alize-core/alize-core/include/AudioFrame.h:
-
-/home/szm/cd/alize-core/alize-core/include/AudioFileReader.h:
-
-/home/szm/cd/alize-core/alize-core/include/AudioInputStream.h:
-
-/home/szm/cd/alize-core/alize-core/include/ConfigChecker.h:
-
 ../../../LIA_SpkTools/include/liatools.h:
 
 ../../../LIA_SpkTools/include/AccumulateStat.h:
@@ -1214,3 +1215,5 @@ ModelToSv-ModelToSvMain.o: ModelToSvMain.cpp /usr/include/stdc-predef.h \
 ../../../LIA_SpkTools/include/PldaTools.h:
 
 ../../../include/Eigen/Core:
+
+../include/IvTest.h:
